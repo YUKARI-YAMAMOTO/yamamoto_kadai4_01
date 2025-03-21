@@ -61,19 +61,21 @@ body {
 
 #about-us {
     display: flex;
+    align-items: center;
 }
 .coffee {
     width: 50%;
 }
 .coffee img {
-    width: 500px;
-    height: 560px;
     border-radius: 0 0 83px 0;
+}
+.about-us-group {
+    width: 50%;
 }
 .about-us-group h2 {
     width: 272px;
     height: 78px;
-    padding: 60px 70px 50px;
+    padding: 70px 50px;
 }
 .about-us-group h3 {
     font-size: 44px;
@@ -144,11 +146,13 @@ body {
     margin-top: 40px;
     background: #fff;
     border: solid 3px #4f260b;
-    padding: 40px 150px;
+    padding: 40px 20px;
 }
 .event-group {
     display: flex;
     flex-direction: column;
+    max-width: 673px;
+    margin: 0 auto;
 }
 
 .event-group li {
@@ -180,7 +184,7 @@ footer {
     background-color: #fff;
 }
 .footer {
-    padding: 83px;
+    padding: 83px 0;
 }
 .footer__inner {
     display: flex;
